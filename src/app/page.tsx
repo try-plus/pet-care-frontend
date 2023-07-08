@@ -6,7 +6,7 @@ export default function Home() {
   return (
     
     <main className="">
-    <h1 className='flex' >what</h1>
+    <h1 className='flex' >whadt</h1>
     </main>
   )
 }
