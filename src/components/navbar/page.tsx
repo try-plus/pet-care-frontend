@@ -1,6 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
+
+
+//image imports
 import logo from '../../../public/images/logo.png'
 
 
