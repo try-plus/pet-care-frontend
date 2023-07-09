@@ -1,7 +1,7 @@
 import Image from 'next/image'
 
 
-//image imports
+//image importsa
 import vec from '../../../../public/images/Vector1.png'
 import dog from '../../../../public/images/main-dog.png'
 import grooming from '../../../../public/svg/grooming.svg'
