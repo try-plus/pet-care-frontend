@@ -29,31 +29,31 @@ import insta from '../../../../public/svg/insta.svg'
 export default function Home() {
   return (
     <main >
-      <section className=' lg:mt-48 lg:mb-64'>
+      <section className=' xl:mt-48 xl:mb-64'>
         <Image
           src={vec}
           alt='background'
           layout='fill'
           objectFit='cover'
-          className=' mt-96 lg:mt-48 -z-10'
+          className=' mt-96 xl:mt-48 -z-10'
         />
-        <div className=' pl-20 lg:ml-20 flex flex-col lg:flex-row justify-center z-10'>
+        <div className=' text-center xl:ml-20 flex flex-col xl:flex-row justify-center z-10'>
           <div className=' mt-48'>
-            <h2 className=' mb-16 lg:text-6xl font-bold'>TAKING CARE <br /> FOR YOUR SMART DOG!</h2>
-            <p className=' mb-16 lg:text-2xl'>Human-canine bonding is the relationship <br /> between dogs and humans.</p>
+            <h2 className=' mb-16 xl:text-6xl font-bold'>TAKING CARE <br /> FOR YOUR SMART DOG!</h2>
+            <p className=' mb-16 xl:text-2xl'>Human-canine bonding is the relationship <br /> between dogs and humans.</p>
             <button className=' w-48 h-16 bg-cyan-900 text-white font-semibold rounded-lg'>EXPLORE MORE</button>
           </div>
           <Image
             src={dog}
             alt='main dog'
-            className=' w-28 h-28 lg:w-60 lg:h-60 lg:ml-24'
+            className=' mx-auto w-60 h-60 xl:ml-24'
           />
         </div>
       </section>
-      <section className='mt-48 lg:mt-0'>
-        <h2 className=' text-4xl text-center mb-10 lg:ml-60 lg:mb-20'>Services Category</h2>
-        <ul className=' mx-auto flex flex-col lg:flex-row lg:justify-center mb-20'>
-          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+      <section className='mt-48 xl:mt-0'>
+        <h2 className=' text-4xl text-center mb-10 xl:ml-60 xl:mb-20'>Services Category</h2>
+        <ul className=' mx-auto flex flex-col xl:flex-row xl:justify-center mb-20'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={grooming}
               alt='yes'
@@ -61,7 +61,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Grooming</p>
           </li>
-          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={healthcare}
               alt='yes'
@@ -69,7 +69,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Healthcare</p>
           </li>
-          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={daycare}
               alt='yes'
@@ -77,7 +77,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Daycare</p>
           </li>
-          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={training}
               alt='yes'
@@ -85,7 +85,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Training</p>
           </li>
-          <li className=' text-center mx-auto mb-4 lg:mb-0 border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={hyginic}
               alt='yes'
@@ -95,70 +95,70 @@ export default function Home() {
           </li>
         </ul>
       </section>
-      <section className='flex flex-col lg:flex-row justify-center'>
-        <div className=" lg:w-[761.17px] lg:h-[750.73px] relative lg:mr-48">
-          <Image className="ShetlandSheepdogLyingFrontWhiteWall19197119183RemovebgPreview1 w-[589px] h-[424px] lg:left-[144px] lg:top-[134.88px] lg:absolute" alt='sheepdog' src={sheepdog} />
-          <Image src={bone} alt='bone' className="Group origin-top-left rotate-[137.13deg] w-[37.85px] h-[41.99px] lg:left-[606.81px] lg:top-[302.11px] lg:absolute" />
-          <Image src={bone1} alt='bone' className="Group origin-top-left rotate-[72.97deg] w-[37.85px] h-[41.99px] lg:left-[237.34px] lg:top-[264.88px] lg:absolute" />
-          <Image src={bone2} alt='bone' className="Group origin-top-left rotate-[104deg] w-[37.81px] h-[41.94px] lg:left-[419.34px] lg:top-[123.36px] lg:absolute" />
-          <Image src={bone3} alt='bone' className="Group origin-top-left rotate-[-22.93deg] w-[42.21px] h-[29.59px] lg:left-[221.46px] lg:top-[391.16px] lg:absolute" />
+      <section className='flex flex-col xl:flex-row justify-center'>
+        <div className=" xl:w-[761.17px] xl:h-[750.73px] relative xl:mr-48">
+          <Image className="ShetlandSheepdogLyingFrontWhiteWall19197119183RemovebgPreview1 xl:w-[589px] xl:h-[424px] xl:left-[144px] xl:top-[134.88px] xl:absolute" alt='sheepdog' src={sheepdog} />
+          <Image src={bone} alt='bone' className="Group origin-top-left rotate-[137.13deg] w-[37.85px] h-[41.99px] xl:left-[606.81px] xl:top-[302.11px] xl:absolute" />
+          <Image src={bone1} alt='bone' className="Group origin-top-left rotate-[72.97deg] w-[37.85px] h-[41.99px] xl:left-[237.34px] xl:top-[264.88px] xl:absolute" />
+          <Image src={bone2} alt='bone' className="Group origin-top-left rotate-[104deg] w-[37.81px] h-[41.94px] xl:left-[419.34px] xl:top-[123.36px] xl:absolute" />
+          <Image src={bone3} alt='bone' className="Group origin-top-left rotate-[-22.93deg] w-[42.21px] h-[29.59px] xl:left-[221.46px] xl:top-[391.16px] xl:absolute" />
         </div>
-        <div className=' my-48 p-10 lg:p-0'>
-          <h2 className=' mb-16 lg:text-4xl font-bold lg:w-[510px]'>
+        <div className=' my-48 p-10 xl:p-0'>
+          <h2 className=' mb-16 xl:text-4xl font-bold xl:w-[510px]'>
             Dogs do speak, but only to <br /> those who know how to <br /> listen.
           </h2>
-          <p className=' mb-16 lg:text-2xl lg:w-[510px]'>Sweet roll ice cream powder candy canes ice cream donut pudding biscuit ice cream.
+          <p className=' mb-16 xl:text-2xl xl:w-[510px]'>Sweet roll ice cream powder candy canes ice cream donut pudding biscuit ice cream.
             Cupcake tootsie roll sugar plum danish pudding fruitcake cheesecake jelly-o. Pie muffin topping cake.
             Pudding biscuit caramels topb
           </p>
           <button className='  w-48 h-16 bg-cyan-900 text-white font-semibold rounded-lg'>EXPLORE MORE</button>
         </div>
       </section>
-      <section className=' px-5 lg:mx-80 '>
+      <section className=' px-5 xl:mx-80 '>
         <h2 className='text-3xl font-mediu'>Dog Nutrients & Food</h2>
         <p className='mb-20 border-b-4 border-cyan-600 w-1/12'></p>
-        <div className='flex flex-col lg:flex-row '>
+        <div className='flex flex-col xl:flex-row '>
           <h3 className='text-6xl font-bold mb-20'>25% OFF ALL PRODUCTS</h3>
-          <button className='w-48 h-16 mx-auto mb-10 lg:mb-0 lg:ml-[450px] lg:w-[192.69px] lg:h-[59.60px] bg-cyan-900 rounded text-white'>View More</button>
+          <button className='w-48 h-16 mx-auto mb-10 xl:mb-0 xl:ml-[450px] xl:w-[192.69px] xl:h-[59.60px] bg-cyan-900 rounded text-white'>View More</button>
         </div>
         <div>
-          <ul className='flex flex-col lg:flex-row text-center lg:justify-between'>
+          <ul className='flex flex-col xl:flex-row text-center xl:justify-between'>
             <li className='flex flex-col px-11'>
               <Image src={food1} alt='dog food' className='mx-auto mb-10' />
               <h4 className=' text-2xl'>Drools | 3KG</h4>
               <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult dig Food</p>
-              <button className=" mx-auto mb-6 lg:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900">Buy Now</button>
+              <button className=" mx-auto mb-6 xl:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900">Buy Now</button>
             </li>
             <li className='flex flex-col px-11'>
               <Image src={food2} alt='dog food' className='mx-auto mb-10' />
               <h4 className=' text-2xl'>Canine Creek 4 KG</h4>
               <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult dig Food</p>
-              <button className=" mx-auto mb-6 lg:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900">Buy Now</button>
+              <button className=" mx-auto mb-6 xl:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900">Buy Now</button>
             </li>
             <li className='flex flex-col px-11'>
               <Image src={food3} alt='dog food' className='mx-auto mb-10' />
               <h4 className=' text-2xl'>Biscork Biscuits</h4>
               <p>Adult chicken and egg Egg, Chicken 3 kg Dry Adult dig Food</p>
-              <button className=" mx-auto mb-6 lg:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900" >Buy Now</button>
+              <button className=" mx-auto mb-6 xl:ml-24 mt-10 w-[187px] h-[52px] rounded-md border-[3px] text-cyan-900 font-semibold text-[20px] border-cyan-900" >Buy Now</button>
             </li>
           </ul>
         </div>
       </section>
-      <section className='flex flex-col px-2 lg:px-0 lg:flex-row lg:justify-around lg:mx-80'>
+      <section className='flex flex-col px-2 xl:px-0 xl:flex-row xl:justify-around xl:mx-80'>
         <div className='mt-48'>
-          <h2 className='mb-16 text-4xl font-bold lg:w-[508px]'>NO ONE APPRECIATES THE VERY SPECIAL GENIUS OF YOUR CONVERSATION AS THE DOG DOES.</h2>
-          <p className='mb-16 text-2xl lg:w-[533px]'>Sweet roll ice powder candy canes ice cream donut pudding buscuit ice cream biscuit topb</p>
-          <button className='w-48 h-16 lg:w-[192.69px] lg:h-[59.60px] bg-cyan-900 rounded text-white'>Explore More</button>
+          <h2 className='mb-16 text-4xl font-bold xl:w-[508px]'>NO ONE APPRECIATES THE VERY SPECIAL GENIUS OF YOUR CONVERSATION AS THE DOG DOES.</h2>
+          <p className='mb-16 text-2xl xl:w-[533px]'>Sweet roll ice powder candy canes ice cream donut pudding buscuit ice cream biscuit topb</p>
+          <button className='w-48 h-16 xl:w-[192.69px] xl:h-[59.60px] bg-cyan-900 rounded text-white'>Explore More</button>
         </div>
         <div>
-          <Image src={walking} alt='walking a dog' className='mt-28' />
+          <Image src={walking} alt='walking a dog' className='mb-48 mt-28' />
         </div>
       </section>
-      <section className='lg:mx-80 flex flex-col'>
+      <section className=' mx-10 xl:w-[90%] xl:mx-auto flex flex-col'>
         <h2 className='text-3xl font-mediu'>Happy Customer</h2>
         <p className='mb-20 border-b-4 border-cyan-600 w-1/12'></p>
-        <ul className='flex flex-col lg:flex-row justify-between text-center'>
-          <li className='mb-16 lg:mb-0 lg:w-[360px] lg:ml-32'>
+        <ul className='flex flex-col xl:flex-row xl:justify-between text-center'>
+          <li className='mb-16 xl:mb-0 xl:w-[350px] '>
             <div className='h-[269px] rounded-t-3xl bg-yellow-200 '>
               <Image src={customer} alt='its a dog' className='mx-auto pb-10 relative top-[-50px]' />
             </div>
@@ -168,7 +168,7 @@ export default function Home() {
               <p>bones</p>
             </div>
           </li>
-          <li className='mb-16 lg:mb-0 lg:w-[360px] '>
+          <li className='mb-16 xl:mb-0 xl:w-[350px] '>
             <div className='h-[269px] rounded-t-3xl bg-pink-300'>
               <Image src={customer1} alt='its a dog' className='mx-auto pb-10 h-[375px] relative top-[-45px]' />
             </div>
@@ -178,7 +178,7 @@ export default function Home() {
               <p>bones</p>
             </div>
           </li>
-          <li className='mb-16 lg:mb-0 lg:w-[360px] lg:mr-32'>
+          <li className='mb-16 xl:mb-0 xl:w-[350px]'>
             <div className='h-[269px] rounded-t-3xl bg-purple-200'>
               <Image src={customer2} alt='its a dog' className='mx-auto pb-10 h-[400px] relative top-[-90px]' />
             </div>
@@ -194,25 +194,25 @@ export default function Home() {
       <section className=' bg-[#edf1f0]'>
         <div className='pt-[80px]'>
           <h2 className='text-4xl font-bold text-center mb-28'>JOIN US WITH AFFILIATE PROGRAM</h2>
-          <div className='flex flex-col lg:justify-center'>
-            <input type="text" placeholder='Type your email address here' className=' w-[80%] h-14 mb-10 mx-auto lg:mb-0 lg:w-[751px] lg:h-[118px] lg:ml-48' />
-            <button type='submit' className=' mx-auto lg:relative lg:right-[250px] lg:top-[30px] w-[192.69px] h-[59.60px] bg-cyan-900 rounded text-white'>Submit now</button>
+          <div className='flex flex-col xl:flex-row xl:justify-center'>
+            <input type="text" placeholder='Type your email address here' className=' w-[80%] h-14 mb-10 xl:relative xl:left-[575px] xl:mx-0 xl:mb-0 xl:w-[751px] xl:h-[118px]' />
+            <button type='submit' className=' mx-auto xl:relative xl:left-[-115px] xl:top-[30px] w-[192.69px] h-[59.60px] bg-cyan-900 rounded text-white'>Submit now</button>
           </div>
         </div>
-        <ul className='flex flex-col lg:flex-row lg:justify-center py-20'>
-          <li className='mx-auto mb-10 lg:mb-0 lg:mr-[400px]'>
+        <ul className='flex flex-col xl:flex-row xl:justify-center py-20'>
+          <li className='mx-auto mb-10 xl:mb-0 xl:mr-[400px]'>
             <h3 className=' text-lg font-semibold'>Follow on social</h3>
             <div className='flex flex-row'>
-              <Image src={facebook} alt='facebook logo' className='lg:mr-10 pt-4' />
+              <Image src={facebook} alt='facebook logo' className='xl:mr-10 pt-4' />
               <Image src={insta} alt='insta logo' className='pt-4' />
             </div>
           </li>
-          <li className='mx-auto mb-10 lg:mb-0 text-center lg:mr-[100px]'>
+          <li className='mx-auto mb-10 xl:mb-0 text-center xl:mr-[100px]'>
             <h3 className=' text-lg font-semibold'>Boarding &day care</h3>
             <p className=' text-2xl font-semibold text-cyan-900 py-4'>(616)-459-8622</p>
             <p className=' text-xl'>3236 Howard Street ,Grand <br /> Rapids,MI Michigan</p>
           </li>
-          <li className='mx-auto text-center lg:mx-0' >
+          <li className='mx-auto text-center xl:mx-0' >
             <h3 className=' text-lg font-semibold'>Health care</h3>
             <p className=' text-2xl font-semibold text-cyan-900 py-4'>(616)-556-5896</p>
             <p className=' text-xl'>3236 Howard Street ,Grand <br /> Rapids,MI Michigan</p>
