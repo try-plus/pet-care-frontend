@@ -24,35 +24,36 @@ import customer2 from '../../../../public/images/customer2.png'
 import facebook from '../../../../public/svg/facebook.svg'
 import insta from '../../../../public/svg/insta.svg'
 
-
+// notes for me willie only
+// red dot marks mobile styles done and need to rework the lg screen styles
 export default function Home() {
   return (
     <main >
-      <section className=' mt-48 mb-64'>
+      <section className=' lg:mt-48 lg:mb-64'>
         <Image
           src={vec}
           alt='background'
           layout='fill'
           objectFit='cover'
-          className=' mt-48 -z-10' 
+          className=' mt-96 lg:mt-48 -z-10' 
         />
-        <div className='flex flex-row justify-center z-10'>
+        <div className=' ml-20 lg:ml-20 flex flex-row justify-center z-10'>
           <div className=' mt-48'>
-            <h2 className=' mb-16 text-6xl font-bold'>TAKING CARE <br/> FOR YOUR SMART DOG!</h2>
-            <p className=' mb-16 text-2xl'>Human-canine bonding is the relationship <br/> between dogs and humans.</p>
+            <h2 className=' mb-16 lg:text-6xl font-bold'>TAKING CARE <br/> FOR YOUR SMART DOG!</h2>
+            <p className=' mb-16 lg:text-2xl'>Human-canine bonding is the relationship <br/> between dogs and humans.</p>
             <button className=' w-48 h-16 bg-cyan-900 text-white font-semibold rounded-lg'>EXPLORE MORE</button>
           </div>
           <Image
             src={dog}
             alt='main dog'
-            className=' ml-24'
+            className=' w-60 h-60 lg:ml-24'
           />
         </div>
       </section>
-      <section className=''>
-        <h2 className=' text-4xl ml-60 mb-20'>Services Category</h2>
-        <ul className='flex flex-row justify-center mb-20'>
-          <li className=' text-center mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+      <section className='mt-48 lg:mt-0'>
+        <h2 className=' text-4xl text-center mb-10 lg:ml-60 lg:mb-20'>Services Category</h2>
+        <ul className=' mx-auto flex flex-col lg:flex-row lg:justify-center mb-20'>
+          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={grooming}
               alt='yes'
@@ -60,7 +61,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Grooming</p>
           </li>
-          <li className=' text-center mr-20 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={healthcare}
               alt='yes'
@@ -68,7 +69,7 @@ export default function Home() {
             />
             <p  className='mt-7 font-semibold text-xl'>Healthcare</p>
           </li>
-          <li className=' text-center mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={daycare}
               alt='yes'
@@ -76,7 +77,7 @@ export default function Home() {
             />
             <p  className='mt-7 font-semibold text-xl'>Daycare</p>
           </li>
-          <li  className=' text-center mr-20 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li  className=' text-center mx-auto mb-4 lg:mb-0 lg:mr-20 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={training}
               alt='yes'
@@ -84,7 +85,7 @@ export default function Home() {
             />
             <p  className='mt-7 font-semibold text-xl'>Training</p>
           </li>
-          <li className=' text-center border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 lg:mb-0 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={hyginic}
               alt='yes'
