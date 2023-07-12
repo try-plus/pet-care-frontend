@@ -28,16 +28,16 @@ import insta from '../../../../public/svg/insta.svg'
 // red dot marks mobile styles done and need to rework the lg screen styles
 export default function Home() {
   return (
-    <main >
+    <main className=' max-w-[1440px] mx-auto' >
       <section className=' xl:mt-48 xl:mb-64'>
         <Image
           src={vec}
           alt='background'
           layout='fill'
           objectFit='cover'
-          className=' mt-96 xl:mt-48 -z-10'
+          className=' mt-96 xl:mt-48 -z-10 max-w-[1440px] mx-auto'
         />
-        <div className=' text-center xl:ml-20 flex flex-col xl:flex-row justify-center z-10'>
+        <div className=' text-center xl:text-left xl:ml-20 flex flex-col xl:flex-row justify-center z-10'>
           <div className=' mt-48'>
             <h2 className=' mb-16 xl:text-6xl font-bold'>TAKING CARE <br /> FOR YOUR SMART DOG!</h2>
             <p className=' mb-16 xl:text-2xl'>Human-canine bonding is the relationship <br /> between dogs and humans.</p>
@@ -46,14 +46,14 @@ export default function Home() {
           <Image
             src={dog}
             alt='main dog'
-            className=' mx-auto w-60 h-60 xl:ml-24'
+            className=' mx-auto w-60 h-60 xl:w-[500px] xl:h-[500px] xl:ml-20 xl:mr-0'
           />
         </div>
       </section>
       <section className='mt-48 xl:mt-0'>
         <h2 className=' text-4xl text-center mb-10 xl:ml-60 xl:mb-20'>Services Category</h2>
         <ul className=' mx-auto flex flex-col xl:flex-row xl:justify-center mb-20'>
-          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={grooming}
               alt='yes'
@@ -61,7 +61,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Grooming</p>
           </li>
-          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 border border-yellow-200 rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={healthcare}
               alt='yes'
@@ -69,7 +69,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Healthcare</p>
           </li>
-          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border rounded-2xl border-teal-200 w-52 h-56'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 border rounded-2xl border-teal-200 w-52 h-56'>
             <Image
               src={daycare}
               alt='yes'
@@ -77,7 +77,7 @@ export default function Home() {
             />
             <p className='mt-7 font-semibold text-xl'>Daycare</p>
           </li>
-          <li className=' text-center mx-auto mb-4 xl:mb-0 xl:mr-20 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
+          <li className=' text-center mx-auto mb-4 xl:mb-0 border border-yellow-200  rounded-2xl w-52 h-56 bg-gradient-to-b from-yellow-50 to-white'>
             <Image
               src={training}
               alt='yes'
@@ -96,14 +96,14 @@ export default function Home() {
         </ul>
       </section>
       <section className='flex flex-col xl:flex-row justify-center'>
-        <div className=" xl:w-[761.17px] xl:h-[750.73px] relative xl:mr-48">
+        <div className=" xl:w-[761.17px] xl:h-[750.73px] relative xl:mr-28">
           <Image className="ShetlandSheepdogLyingFrontWhiteWall19197119183RemovebgPreview1 xl:w-[589px] xl:h-[424px] xl:left-[144px] xl:top-[134.88px] xl:absolute" alt='sheepdog' src={sheepdog} />
           <Image src={bone} alt='bone' className="Group origin-top-left rotate-[137.13deg] w-[37.85px] h-[41.99px] xl:left-[606.81px] xl:top-[302.11px] xl:absolute" />
           <Image src={bone1} alt='bone' className="Group origin-top-left rotate-[72.97deg] w-[37.85px] h-[41.99px] xl:left-[237.34px] xl:top-[264.88px] xl:absolute" />
           <Image src={bone2} alt='bone' className="Group origin-top-left rotate-[104deg] w-[37.81px] h-[41.94px] xl:left-[419.34px] xl:top-[123.36px] xl:absolute" />
           <Image src={bone3} alt='bone' className="Group origin-top-left rotate-[-22.93deg] w-[42.21px] h-[29.59px] xl:left-[221.46px] xl:top-[391.16px] xl:absolute" />
         </div>
-        <div className=' my-48 p-10 xl:p-0'>
+        <div className=' my-48 p-10 text-center xl:text-left xl:p-0'>
           <h2 className=' mb-16 xl:text-4xl font-bold xl:w-[510px]'>
             Dogs do speak, but only to <br /> those who know how to <br /> listen.
           </h2>
@@ -114,7 +114,7 @@ export default function Home() {
           <button className='  w-48 h-16 bg-cyan-900 text-white font-semibold rounded-lg'>EXPLORE MORE</button>
         </div>
       </section>
-      <section className=' px-5 xl:mx-80 '>
+      <section className=' px-5 xl:mx-auto xl:px-32 '>
         <h2 className='text-3xl font-mediu'>Dog Nutrients & Food</h2>
         <p className='mb-20 border-b-4 border-cyan-600 w-1/12'></p>
         <div className='flex flex-col xl:flex-row '>
@@ -144,7 +144,7 @@ export default function Home() {
           </ul>
         </div>
       </section>
-      <section className='flex flex-col px-2 xl:px-0 xl:flex-row xl:justify-around xl:mx-80'>
+      <section className='flex flex-col text-center px-5 xl:text-left xl:px-0 xl:flex-row xl:justify-around xl:mb-28 xl:mx-80'>
         <div className='mt-48'>
           <h2 className='mb-16 text-4xl font-bold xl:w-[508px]'>NO ONE APPRECIATES THE VERY SPECIAL GENIUS OF YOUR CONVERSATION AS THE DOG DOES.</h2>
           <p className='mb-16 text-2xl xl:w-[533px]'>Sweet roll ice powder candy canes ice cream donut pudding buscuit ice cream biscuit topb</p>
@@ -191,16 +191,16 @@ export default function Home() {
         </ul>
         <button className='w-[192.69px] h-[59.60px] bg-cyan-900 rounded text-white mx-auto my-20'>Explore More</button>
       </section>
-      <section className=' bg-[#edf1f0]'>
+      <section className=' bg-[#edf1f0] px-10'>
         <div className='pt-[80px]'>
           <h2 className='text-4xl font-bold text-center mb-28'>JOIN US WITH AFFILIATE PROGRAM</h2>
-          <div className='flex flex-col xl:flex-row xl:justify-center'>
-            <input type="text" placeholder='Type your email address here' className=' w-[80%] h-14 mb-10 xl:relative xl:left-[575px] xl:mx-0 xl:mb-0 xl:w-[751px] xl:h-[118px]' />
-            <button type='submit' className=' mx-auto xl:relative xl:left-[-115px] xl:top-[30px] w-[192.69px] h-[59.60px] bg-cyan-900 rounded text-white'>Submit now</button>
+          <div className='flex flex-col'>
+            <input type="text" placeholder='Type your email address here' className=' w-[80%] max-w-[400px] h-14 mb-10 xl:max-w-[1000px] xl:relative mx-auto xl:mb-0 xl:w-[751px] xl:h-[118px]' />
+            <button type='submit' className=' mx-auto xl:relative xl:left-[250px] xl:top-[-85px] w-[192.69px] h-[59.60px] bg-cyan-900 rounded text-white'>Submit now</button>
           </div>
         </div>
         <ul className='flex flex-col xl:flex-row xl:justify-center py-20'>
-          <li className='mx-auto mb-10 xl:mb-0 xl:mr-[400px]'>
+          <li className='mx-auto mb-10 xl:mb-0 xl:mr-[350px]'>
             <h3 className=' text-lg font-semibold'>Follow on social</h3>
             <div className='flex flex-row'>
               <Image src={facebook} alt='facebook logo' className='xl:mr-10 pt-4' />
